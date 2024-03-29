@@ -7,7 +7,7 @@ const options = {
   autoBody: false         // Enable/Disable automatic body capture. By default is true
 }
 
-const config = require('../config/database.js');
+const config = require('../database.js');
 const swaggerAutogen = require('swagger-autogen')();
 // const msg = require('../utils/lang/messages');
 
@@ -61,8 +61,8 @@ definitions: {
 },          // by default: empty object (Swagger 2.0)
 };
 
-const outputFile = './docs/swagger.json';
-const endpointsFiles = ['./app.js', './controllers/*.js'];
+const outputFile = './swagger.json';
+const endpointsFiles = ['./app.js', './*.js'];
 
 /* NOTE: if you use the express Router, you must pass in the 
  'endpointsFiles' only the root file where the route starts,
