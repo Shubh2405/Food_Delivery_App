@@ -1,6 +1,6 @@
 // controllers/pricingController.js
 
-const PricingService = require('../services/pricingService');
+const PricingService = require('../pricingService.js');
 async function calculateTotalPrice(req, res) {
     try {
       // Extract input parameters from the request body
