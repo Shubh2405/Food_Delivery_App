@@ -7,9 +7,9 @@ const options = {
   autoBody: false         // Enable/Disable automatic body capture. By default is true
 }
 
-const config = require('../database.js');
+const config = require('./database.js');
 const swaggerAutogen = require('swagger-autogen')();
-// const msg = require('../utils/lang/messages');
+
 
 const doc = {
 info: {
