@@ -15,7 +15,7 @@ sequelize.sync({ force: false }) // Set force to true to drop existing tables an
   });
 
 const express = require('express');
-const pricingRoutes = require('./routes/pricingRoutes');
+const pricingRoutes = require('./pricingRoutes');
 
 const app = express();
 
