@@ -1,6 +1,6 @@
 // models/pricingModel.js
 const { DataTypes } = require('sequelize');
-const sequelize = require('../database.js');
+const sequelize = require('./database.js');
 const Organization = require('./orgModel');
 const Item = require('./itemModel');
 
