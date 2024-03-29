@@ -1,7 +1,7 @@
-// services/pricingService.js
+// pricingService.js
 
 // Import necessary models and modules
-const Pricing = require('../models/pricingModel');
+const Pricing = require('../pricingModel');
 
 class PricingService {
   /**
